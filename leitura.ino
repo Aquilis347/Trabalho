@@ -57,7 +57,7 @@ void setup()
 
 void loop()
 {
-  if (digitalRead(INT11) == 1)
+  if (digitalRead(INT1) == 1)
   {
     getFingerprintID();
     delay(50);
